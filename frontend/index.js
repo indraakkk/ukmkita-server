@@ -1,3 +1,4 @@
+
 const universities = async () => {
     let response = await fetch("https://stupid-badger-44.localtunnel.me/fourcampus/campuses/")
         .then(async (response) => {
@@ -7,9 +8,9 @@ const universities = async () => {
         .catch(err => {
             return err
         })
-    response.map((res) => {
-        document.getElementById("campus-riauisland").innerHTML = document.getElementById("campus-riauisland").innerHTML +
-        `<div class="card text-white bg-dark mr-2 ml-2 mb-3" style="max-width: 15rem;">
+        response.map((res) => {
+                document.getElementById("campus-riauisland").innerHTML = document.getElementById("campus-riauisland").innerHTML +
+                    `<div class="card text-white bg-dark mr-2 ml-2 mb-3" style="max-width: 15rem;">
             <div class="card-header">${res.name_campus}</div>
             <div class="card-body">
                 <h5 class="card-title">${res.site_campus}</h5>
@@ -17,8 +18,8 @@ const universities = async () => {
                 <p class="card-text">${res.addr_campus}</p>
             </div>
         </div>`
-    })
-}
+            })
+    }
+
 
 universities();
-
