@@ -1,23 +1,40 @@
+.jumbotron{
+    background-image: url(./image/pexels-photo-798721.jpeg);
+    object-fit: cover;
+}
+
 .header{
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .campus{
-    background-color: #FFA9A9;
-    padding: 10px, 10px, 10px, 10px;
+    font-family: 'Merienda', cursive;
+    font-size: 30px;
+    color: white;
+    
 }
 .title{
-    background-color: #E9FFA9;
-    margin-left: 50px;
+    font-family: 'Signika', sans-serif;
+    margin-left: 30px;
+    font-size: 20px;
+    color: white;
 }
 
 .labelcontent{
     font-family: 'Signika', sans-serif;
-    font-size: 30px;
+    font-size: 40px;
     margin-bottom: 20px;
 }
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 0.5rem;
+}
+
 .formsearch{
-    margin-top: 200px;
+    margin-top: 150px;
+    margin-bottom: 200px;
 }
 
 .form-control-borderless {
@@ -30,13 +47,14 @@
     box-shadow: none;
 }
 
+
 .card-deck{
     margin-top: 2em;
     margin-bottom: 5em;
 }
 
 .footer{
-    background-image: url(./image/footer.png);
+    background-color: #3B3B3B;
     position: fixed;
     left: 0;
     bottom: 0;
