@@ -26,7 +26,37 @@
     <!--///-->
 
     <!--Search Menu-->
-    <div class="formsearch container">
+    <form method="post" action="/addname">
+        <label>Enter Your Name<&#47;label><br>
+        <input type="text" name="firstName" placeholder="Enter first name..." required>
+        <input type="text" name="lastName" placeholder="Enter last name..." required>
+        <input type="submit" value="Add Name">
+      </form>
+
+
+
+    <!--///-->
+
+    <!--Search Result-->
+    <div>
+        <h1 class="text-center mt-3">Universities in Riau Island</h1>
+        <div id="campus-riauisland" class="row justify-content-center"></div>
+    </div>
+
+
+
+    <div class="footer">
+        <p align="center" style="font-family: 'Signika', sans-serif;">Copyleft-2018 indraakkk+dilla</p>
+    </div>
+
+    <script src="./index.js"></script>
+    <script src="./filter.js"></script>
+
+</body>
+
+</html>
+
+<!-- <div class="formsearch container">
         <div class="row justify-content-center">
             <label class="labelcontent">Type Campus Name or City</label>
             <div class="col-10 col-md-8 col-lg-10">
@@ -47,24 +77,4 @@
                 </form>
             </div>
         </div>
-    </div>
-    <!--///-->
-
-    <!--Search Result-->
-    <div>
-        <h1 class="text-center mt-3">Universities in Riau Island</h1>
-        <div id="campus-riauisland" class="row justify-content-center"></div>
-    </div>
-
-
-
-    <div class="footer">
-        <p align="center" style="font-family: 'Signika', sans-serif;">Copyleft-2018 indraakkk+dilla</p>
-    </div>
-
-    <script src="./index.js"></script>
-
-</body>
-
-</html>
-
+    </div> -->

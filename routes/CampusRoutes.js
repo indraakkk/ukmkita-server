@@ -15,6 +15,7 @@ module.exports=function(app){
             res.json(campuses)
         })
     })
+
     app.post('/fourcampus/campuses/add', (req, res)=>{
         const campuses = new CampusModels()
         campuses.name_campus=req.body.name_campus
