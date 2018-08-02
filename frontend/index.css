@@ -30,6 +30,11 @@
     box-shadow: none;
 }
 
+.card-deck{
+    margin-top: 2em;
+    margin-bottom: 5em;
+}
+
 .footer{
     background-image: url(./image/footer.png);
     position: fixed;
@@ -37,4 +42,8 @@
     bottom: 0;
     width: 100%;
     color: white;
+}
+
+.footer > p {
+    margin: 10px;
 }
