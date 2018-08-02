@@ -1,5 +1,5 @@
 const universities = async () => {
-    let response = await fetch("https://stupid-badger-44.localtunnel.me/fourcampus/campuses/")
+    let response = await fetch("https://tough-skunk-12.localtunnel.me/fourcampus/campuses/")
         .then(async (response) => {
             response = await response.json()
             return response
