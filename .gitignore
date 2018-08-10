@@ -1,3 +1,7 @@
+# push exception 
 node_modules/
 .DS_Store
+
+# hide config folder
+config/
 
