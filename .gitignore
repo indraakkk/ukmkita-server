@@ -4,7 +4,7 @@ node_modules/
 fourcampus.png
 
 # hide config folder
-config/
-upload/
+config
+upload
 
 
