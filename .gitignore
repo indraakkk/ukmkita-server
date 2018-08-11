@@ -1,7 +1,9 @@
 # push exception 
 node_modules/
 .DS_Store
+fourcampus.png
 
 # hide config folder
 config/
+uploads/
 
